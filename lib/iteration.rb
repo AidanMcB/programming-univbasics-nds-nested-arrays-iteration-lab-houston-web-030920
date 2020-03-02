@@ -43,7 +43,7 @@ def total_even_pairs(src)
     if row_sum % 2 === 0 
       total += row_sum 
     else 
-      total += 0 
+      total 
     end
     row_index += 1 
   end 
