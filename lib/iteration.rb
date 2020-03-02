@@ -20,8 +20,12 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   row_index = 0 
-  newArray 
-  
+  newArray = [] 
+  while row_index < src.length do 
+    newArray << src[row_index].max
+    row_index += 1 
+  end 
+  newArray
 end
 
 def total_even_pairs(src)
